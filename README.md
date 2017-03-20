@@ -4,7 +4,7 @@
 Imager takes in an image and tries to identify form fields in the image. It currently works by looking for rectangles and marking them with a red border. 
 There are many false positives, which will be filtered out in future versions. 
 
-![alt text](images/demo_output.png "Demonstration")
+![alt text](https://github.com/appknox/imager/blob/master/images/demo_output.png "Demonstration")
 
 
 The implementation consists of several steps of pre-processing the image. 

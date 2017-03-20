@@ -47,7 +47,7 @@ countered = cv2.drawContours(image.copy(), rects, -1, (255, 0, 0), 3)
 
 # plotting the images
 images = [image, thresholded, edged, countered]
-titles = ["original", "thresholded", "edge detection", "countered"]
+titles = ["original", "thresholded", "edge detection", "result"]
 
 for i in range(4):
     plt.subplot(2, 2, i+1)
